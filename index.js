@@ -1,6 +1,44 @@
+// function addingEventListener() {
+//     const input = document.getElementById('input');
+// input.addEventListener('click', function(event) {
+//   alert('I was clicked!');
+// });
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const input = document.querySelector('#input')
+
 function addingEventListener() {
-    const input = document.getElementById('input');
-input.addEventListener('click', function(event) {
-  alert('I was clicked!');
-});
+  input.addEventListener('click', function(e) {
+    console.log('I caught you on camera')
+})
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
